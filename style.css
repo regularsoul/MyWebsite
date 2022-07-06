@@ -1,0 +1,67 @@
+*{
+    color: aliceblue;
+    font-family:monospace;
+    box-sizing: border-box;
+}
+a, li, button{
+    font-weight: 500;
+    font-family: sans-serif;
+    color:floralwhite;
+    text-decoration: none;
+}
+button{
+    margin: 30px;
+    padding:15px;
+    background-color:dodgerblue;
+    cursor:inherit;
+    border:none;
+    border-radius: 40px; 
+    transition: all 0.3 ease 0s;
+}
+button:hover{
+    background-color:blue
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navButtons
+{
+    list-style: none;
+    display: flex;
+    margin-left: 350px
+    flex: 1 1 auto;    
+}
+
+.navButtons li{
+    display: inline-block;
+    padding: inherit;
+    margin-top: 32px;
+}
+
+.navButtons a,li
+{
+    transition: all 0.3 ease 0s;
+}
+
+.navButtons a,li:hover
+{
+    color: aqua;
+    cursor: pointer;
+}
+
+
+header
+{
+    display: flex;
+    justify-content:space-between;
+}
+
+body{
+    background: black;
+}
+
+h1{
+    text-align: center;
+}
